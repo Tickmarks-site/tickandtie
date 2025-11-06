@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickandTie - Smart Finance Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-text">
+                    <span class="brand-name">
+                        <span class="tick">t<span class="i-dot">i</span>ck</span>
+                        <span class="ampersand">&</span>
+                        <span class="tie">t<span class="i-dot">i</span>e</span>
+                    </span>
+                    <span class="tagline">Talk to Your Financials</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn-login">Login</button>
+                <button class="btn-demo">Book a Demo</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="geometric-shape shape-1"></div>
+        <div class="geometric-shape shape-2"></div>
+        <div class="geometric-shape shape-3"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Smart Finance Platform</h1>
+                <p class="hero-subtitle">Your ally for streamlined finance operations</p>
+                <p class="hero-description">
+                    Transforming complex finance closing processes into impactful reporting and actionable insights. 
+                    Evolve beyond outdated tools and experience seamless scalability.
+                </p>
+                <button class="btn-primary">Book a Demo</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="Financial Analytics Dashboard">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Feature Section -->
+    <section class="main-feature">
+        <div class="container">
+            <h2>The Neo Augmented Financial Reporting and Analysis</h2>
+            <p class="feature-subtitle">Focus on the story behind the numbers to drive business growth</p>
+            <div class="feature-content">
+                <div class="feature-text">
+                    <h3>Financial Reporting and Analysis</h3>
+                    <p>Leverage advanced analytics and AI-powered insights to transform your financial data into actionable business intelligence.</p>
+                </div>
+                <div class="feature-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Financial Analytics Dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="key-features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="decorative-line"></div>
+            <p class="section-subtitle">Discover our innovative solutions that give you the edge</p>
+            
+            <!-- Tab Navigation -->
+            <div class="feature-tabs">
+                <button class="tab-btn active" data-tab="flexi-reporting">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Flexi-Reporting</span>
+                </button>
+                <button class="tab-btn" data-tab="quick-reports">
+                    <i class="fas fa-clock"></i>
+                    <span>Quick Reports</span>
+                </button>
+                <button class="tab-btn" data-tab="genai-analysis">
+                    <i class="fas fa-robot"></i>
+                    <span>GenAI Analysis</span>
+                </button>
+                <button class="tab-btn" data-tab="consolidation">
+                    <i class="fas fa-sync-alt"></i>
+                    <span>Consolidation</span>
+                </button>
+            </div>
+            
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Flexi-Reporting Tab -->
+                <div class="tab-pane active" id="flexi-reporting">
+                    <div class="feature-content-wrapper">
+                        <div class="feature-text-content">
+                            <h3>Flexi-Reporting: Effortless and Simplified</h3>
+                            <p>Transform your financial reporting with our intuitive, no-code solution that makes complex reporting simple and efficient.</p>
+                            <ul>
+                                <li>Fast track your modeling with prebuilt templates</li>
+                                <li>Create detailed, custom reports in moments with our No-Code Reporting solution</li>
+                                <li>No code model builder - build what your business needs</li>
+                                <li>Simplify your process of generating financial statements, KPIs & Metrics with ease</li>
+                            </ul>
+                            <button class="btn-secondary">Learn More</button>
+                        </div>
+                        <div class="feature-image-content">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="Flexi-Reporting Dashboard">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Reports Tab -->
+                <div class="tab-pane" id="quick-reports">
+                    <div class="feature-content-wrapper">
+                        <div class="feature-text-content">
+                            <h3>Generate Financial Reports In Seconds</h3>
+                            <p>Save countless hours with our lightning-fast report generation that delivers professional insights instantly.</p>
+                            <ul>
+                                <li>Save countless hours spent on financial report preparation</li>
+                                <li>Handle dimensional reporting, flux analysis, variance analysis, and essential KPIs swiftly</li>
+                                <li>Present reports in customizable themes and formats your leaders prefer</li>
+                                <li>Generate executive summaries with tables, charts, and notes for quick decision-making</li>
+                            </ul>
+                            <button class="btn-secondary">Learn More</button>
+                        </div>
+                        <div class="feature-image-content">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Quick Reports Interface">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- GenAI Analysis Tab -->
+                <div class="tab-pane" id="genai-analysis">
+                    <div class="feature-content-wrapper">
+                        <div class="feature-text-content">
+                            <h3>360° Financial Analysis with GenAI</h3>
+                            <p>Leverage cutting-edge AI technology to gain deeper insights and make smarter financial decisions.</p>
+                            <ul>
+                                <li>Leverage GenAI technology to identify abnormalities and summarize financial performance instantly</li>
+                                <li>Assess historical trends, performance against budgets and KPIs systematically</li>
+                                <li>Drill down from financial statements to transaction details for clarity with ease</li>
+                                <li>Access insights from both business and finance angles for a well-rounded view</li>
+                            </ul>
+                            <button class="btn-secondary">Learn More</button>
+                        </div>
+                        <div class="feature-image-content">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI Analysis Dashboard">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Consolidation Tab -->
+                <div class="tab-pane" id="consolidation">
+                    <div class="feature-content-wrapper">
+                        <div class="feature-text-content">
+                            <h3>Instant Consolidation: One Click To Group Insights</h3>
+                            <p>Streamline your consolidation process with automated tools that bring together data from multiple sources seamlessly.</p>
+                            <ul>
+                                <li>Reduce your waiting time with our tools</li>
+                                <li>Consolidate multiple companies with ease</li>
+                                <li>Witness group financial results unfold as each entity submits its data</li>
+                                <li>Automate various views including group, company, and segment analysis</li>
+                            </ul>
+                            <button class="btn-secondary">Learn More</button>
+                        </div>
+                        <div class="feature-image-content">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Consolidation Dashboard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How does it work?</h2>
+            <div class="decorative-line"></div>
+            <p class="section-subtitle">Your Finance Leader's Command Center—Simplified</p>
+            
+            <!-- Workflow Tab Navigation -->
+            <div class="workflow-tabs">
+                <button class="workflow-tab-btn active" data-workflow-tab="integration">
+                    <div class="tab-number">1</div>
+                    <span>Integration</span>
+                </button>
+                <button class="workflow-tab-btn" data-workflow-tab="mapping">
+                    <div class="tab-number">2</div>
+                    <span>Mapping</span>
+                </button>
+                <button class="workflow-tab-btn" data-workflow-tab="templates">
+                    <div class="tab-number">3</div>
+                    <span>Templates</span>
+                </button>
+                <button class="workflow-tab-btn" data-workflow-tab="analysis">
+                    <div class="tab-number">4</div>
+                    <span>Analysis</span>
+                </button>
+                <button class="workflow-tab-btn" data-workflow-tab="communication">
+                    <div class="tab-number">5</div>
+                    <span>Communication</span>
+                </button>
+            </div>
+            
+            <!-- Workflow Tab Content -->
+            <div class="workflow-tab-content">
+                <!-- Integration Tab -->
+                <div class="workflow-tab-pane active" id="integration">
+                    <div class="workflow-content-wrapper">
+                        <div class="workflow-text-content">
+                            <h3>Integration Made Easy</h3>
+                            <p>Link up with your ERP or accounting software, or upload data directly, the way you want —our platform makes it seamless and simple.</p>
+                            <ul>
+                                <li>Connect with any ERP system seamlessly</li>
+                                <li>Upload data in multiple formats</li>
+                                <li>Real-time data synchronization</li>
+                                <li>Secure and encrypted connections</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-image-content">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="Integration Dashboard">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mapping Tab -->
+                <div class="workflow-tab-pane" id="mapping">
+                    <div class="workflow-content-wrapper">
+                        <div class="workflow-text-content">
+                            <h3>Map and Report with Precision</h3>
+                            <p>Convert your data into comprehensive reports. Our smart mapping ensures accuracy and speed, simplifying report generation processes.</p>
+                            <ul>
+                                <li>Intelligent data mapping algorithms</li>
+                                <li>Custom field mapping capabilities</li>
+                                <li>Automated validation checks</li>
+                                <li>Error detection and correction</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-image-content">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Mapping Interface">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Templates Tab -->
+                <div class="workflow-tab-pane" id="templates">
+                    <div class="workflow-content-wrapper">
+                        <div class="workflow-text-content">
+                            <h3>Custom Templates</h3>
+                            <p>Simplify financial tasks: Build custom or use pre-built templates for reporting, KPIs, variance analysis, and consolidation.</p>
+                            <ul>
+                                <li>Pre-built industry templates</li>
+                                <li>Drag-and-drop template builder</li>
+                                <li>Custom branding options</li>
+                                <li>Template sharing and collaboration</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-image-content">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Template Builder">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analysis Tab -->
+                <div class="workflow-tab-pane" id="analysis">
+                    <div class="workflow-content-wrapper">
+                        <div class="workflow-text-content">
+                            <h3>Deep Dive Analysis and Approvals</h3>
+                            <p>Utilize robust tools to deep dive on the financial statements, conduct analysis, uncovering insights that drive powerful strategies.</p>
+                            <ul>
+                                <li>Advanced analytics dashboard</li>
+                                <li>Drill-down capabilities</li>
+                                <li>Automated approval workflows</li>
+                                <li>Real-time collaboration tools</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-image-content">
+                            <img src="https://images.unsplash.com/photo-1554224154-26032cdc-3047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="Deep Dive Analysis">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Communication Tab -->
+                <div class="workflow-tab-pane" id="communication">
+                    <div class="workflow-content-wrapper">
+                        <div class="workflow-text-content">
+                            <h3>Keep Stakeholders Informed</h3>
+                            <p>Impactful financial insights for informed decisions. Present your financial performance report, the way business demands.</p>
+                            <ul>
+                                <li>Automated report distribution</li>
+                                <li>Interactive dashboards</li>
+                                <li>Role-based access control</li>
+                                <li>Mobile-friendly presentations</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-image-content">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Stakeholder Communication">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiators Section -->
+    <section class="differentiators">
+        <div class="container">
+            <h2>What sets us apart?</h2>
+            <div class="decorative-line"></div>
+            <p class="section-subtitle">Discover why leading companies choose tick & tie for their financial transformation</p>
+            
+            <!-- Differentiators Grid -->
+            <div class="differentiators-grid-modern">
+                <!-- Fast Implementation -->
+                <div class="differentiator-card-modern">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="card-number">01</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Fast Implementation</h3>
+                        <p class="card-subtitle">Get up and running in no time</p>
+                        <p class="card-description">We understand the urgency, so we cut the wait to let you start achieving more sooner.</p>
+                        <ul class="card-features">
+                            <li>Quick setup and configuration</li>
+                            <li>Pre-built templates and workflows</li>
+                            <li>Dedicated onboarding support</li>
+                            <li>Go-live in days, not months</li>
+                        </ul>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Fast Implementation">
+                    </div>
+                </div>
+
+                <!-- No-Code Platform -->
+                <div class="differentiator-card-modern">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-number">02</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>No-Code Platform</h3>
+                        <p class="card-subtitle">Powerful functionality without complexity</p>
+                        <p class="card-description">Build sophisticated financial models and reports without writing a single line of code.</p>
+                        <ul class="card-features">
+                            <li>Drag-and-drop interface</li>
+                            <li>Visual formula builder</li>
+                            <li>Pre-built components</li>
+                            <li>Intuitive user experience</li>
+                        </ul>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="No-Code Platform">
+                    </div>
+                </div>
+
+                <!-- Real-Time Collaboration -->
+                <div class="differentiator-card-modern">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-number">03</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Real-Time Collaboration</h3>
+                        <p class="card-subtitle">Work together seamlessly</p>
+                        <p class="card-description">Enable your team to collaborate in real-time with built-in commenting and approval workflows.</p>
+                        <ul class="card-features">
+                            <li>Live collaboration tools</li>
+                            <li>Built-in commenting system</li>
+                            <li>Approval workflows</li>
+                            <li>Version control and history</li>
+                        </ul>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Real-Time Collaboration">
+                    </div>
+                </div>
+
+                <!-- Advanced Analytics -->
+                <div class="differentiator-card-modern">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-number">04</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Advanced Analytics</h3>
+                        <p class="card-subtitle">Insights that drive decisions</p>
+                        <p class="card-description">Unlock powerful insights with our advanced analytics and AI-powered recommendations.</p>
+                        <ul class="card-features">
+                            <li>AI-powered insights</li>
+                            <li>Predictive analytics</li>
+                            <li>Custom dashboards</li>
+                            <li>Automated reporting</li>
+                        </ul>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554224154-26032cdc-3047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="Advanced Analytics">
+                    </div>
+                </div>
+
+                <!-- Enterprise Security -->
+                <div class="differentiator-card-modern">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="card-number">05</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Enterprise Security</h3>
+                        <p class="card-subtitle">Bank-level security for your data</p>
+                        <p class="card-description">Rest easy knowing your financial data is protected with enterprise-grade security measures.</p>
+                        <ul class="card-features">
+                            <li>Bank-level encryption</li>
+                            <li>SOC 2 Type II compliance</li>
+                            <li>Role-based access control</li>
+                            <li>Regular security audits</li>
+                        </ul>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Enterprise Security">
+                    </div>
+                </div>
+
+                <!-- 24/7 Support -->
+                <div class="differentiator-card-modern">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="card-number">06</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>24/7 Support</h3>
+                        <p class="card-subtitle">Always here when you need us</p>
+                        <p class="card-description">Get expert support whenever you need it with our round-the-clock customer service team.</p>
+                        <ul class="card-features">
+                            <li>24/7 live chat support</li>
+                            <li>Dedicated account managers</li>
+                            <li>Comprehensive documentation</li>
+                            <li>Training and onboarding</li>
+                        </ul>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="24/7 Support">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Leaders' Thoughts</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Today's business dynamics demand swift response. To achieve this, I turn to my finance team to provide me with granular and reliable financial performance reports within one or two days of month-end, delivering key metrics and insights that matter. Just like a dashboard in a car, swift reporting is super important to drive business strategies in the right direction."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Riya Bhattacharya">
+                        </div>
+                        <div class="author-info">
+                            <h4>Riya Bhattacharya</h4>
+                            <p>Ex-CEO, Navi Finserv</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Preparation, review, and analysis of financial statements have long been the CFO's primary role. Today, they must process large volumes of complex information quickly and maintain review evidence longer. Tools with automation, analytics, and Gen AI capabilities are essential for the new-gen CFO organization to meet these demands efficiently."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Ravi Krishnan">
+                        </div>
+                        <div class="author-info">
+                            <h4>Mr. Ravi Krishnan</h4>
+                            <p>Vice President, TVS Capital Funds</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The new age finance team's responsibilities have expanded from accounting for operating results to that of value creation. Functional tools that power automation, visualization and advanced analytics are increasingly being used to accelerate real time decision support, manage risk and uncover growth opportunities."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Rahul Bothra">
+                        </div>
+                        <div class="author-info">
+                            <h4>Mr. Rahul Bothra</h4>
+                            <p>CFO, Swiggy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1554224154-26032cdc-3047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" alt="Budget Analysis">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Budget variance analysis automation: What do you need to know?</h3>
+                        <p>As a growing business, understanding the role of budgets and tracking variances is crucial to stay competitive...</p>
+                        <div class="blog-meta">
+                            <span class="author">Author Guru Moorthy</span>
+                            <span class="date">April 1st, 2025</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Financial Consolidation">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Top 6 financial consolidation software to keep an eye on in 2025</h3>
+                        <p>These days, when accurate and timely financial information is of high importance for finance leaders...</p>
+                        <div class="blog-meta">
+                            <span class="author">Author Guru Moorthy</span>
+                            <span class="date">March 25th, 2025</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI and Automation">
+                    </div>
+                    <div class="blog-content">
+                        <h3>AI and Automation in Management Reporting: A Finance Leader's Guide</h3>
+                        <p>Over the last year, all we heard about was AI and automation as the rising stars of the techno world...</p>
+                        <div class="blog-meta">
+                            <span class="author">Author Guru Moorthy</span>
+                            <span class="date">March 14th, 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-background">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Background">
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Smart Finance Platform</h2>
+                <p>Ready to transform your finance operations?</p>
+                <button class="btn-primary">Book a Demo <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-text">
+                            <span class="brand-name">
+                                <span class="tick">t<span class="i-dot">i</span>ck</span>
+                                <span class="ampersand">&</span>
+                                <span class="tie">t<span class="i-dot">i</span>e</span>
+                            </span>
+                            <span class="tagline">Talk to Your Financials</span>
+                        </div>
+                    </div>
+                    <p>A global cloud-based intelligent finance operation platform that makes finance and accounting smarter and faster.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#use-cases">Use Cases</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>More Details</h4>
+                    <ul>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#demo">Book a Demo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Robust solution</li>
+                        <li>Easy to set up</li>
+                        <li>Smart Finance Platform</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 TickandTie. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
